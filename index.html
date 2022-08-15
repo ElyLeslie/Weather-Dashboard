@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+    <title>Ely's Weather Dashboard</title>
+</head>
+
+    <body>
+        <header class="bg-primary">
+            <h1 class="lighting text-center text-white">Weather Dashboard</h1>
+        
+        </header>
+        <section id="side">
+        
+            
+            <aside>
+                <input type="text" id="search-city" class="col-4">
+                <button class="Search bg-info text-white rounded" id="SearchBtn">Search</button>
+            </aside>
+    
+            <aside id="allBtns">
+        
+            </aside>
+        
+        </section>
+        
+       
+        
+        <section>
+          
+            <p><span id="City-Name-Date"></span></p>
+           <p><span id="location"></span></p> 
+            <p>Temp: <span id="temp"></span> </p>
+            <p>Wind: <span id="wind"></span></p>
+            <p> Humidity: <span id="humidity"></span> </p>
+            
+            <p><span id="image"></span></p>
+        
+           
+        </section>
+        <section>
+        
+            <h2 id="forecast">5-Day Forecast:</h2>
+        </section>
+        <section id="fivedayforecastContainer">
+            <div id="firstDay">
+                <h2 id="firstDayLocationDate"></h2>
+            </div>
+            <div id="secondDay">
+                <h2 id="secondDayLocationDate"></h2>
+            </div>
+            <div id="thirdDay">
+                <h2 id="thirdDayLocationDate"></h2>
+            </div>
+            <div id="fourthDay">
+                <h2 id="fourthDayLocationDate"></h2>
+            </div>
+            <div id="fifthDay">
+                <h2 id="fifthDayLocationDate"></h2>
+            </div>
+        </section>
+        
+
+            
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+     <script src=".\assets\script.js"> </script>
+
+    </body>
+</html>
